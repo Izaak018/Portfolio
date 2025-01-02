@@ -15,19 +15,14 @@
         }
 
         /* Make iframe take up 100% width and set a fixed height */
-        iframe {
+          .iframe-container {
             width: 100%;
-            height: 1000px; /* You can adjust the height to your liking */
-            border: none;
-            max-width: 2000px; /* Prevent the iframe from stretching too much */
+            min-width: 1200px; /* Force a minimum width */
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
         }
 
-        /* Optional: Style the title */
-        h1 {
-            text-align: center;
-            color: white;
-            margin-top: 20px;
-        }
     </style>
 </head>
 <body>
