@@ -16,21 +16,16 @@
             align-items: center;     /* Vertically center */
             position: relative;
         }
-
-        /* Make iframe take up 100% width and set a fixed height */
-          .iframe-container {
-            width: 100%;
-            min-width: 900px; /* Force a minimum width */
-            overflow: hidden;
-            display: flex;
-            justify-content: center;
+         object {
+            width: 80%;  /* Set the width as needed */
+            height: 90vh; /* Set the height as needed */
         }
 
     </style>
 </head>
 <body>
-    <div class="iframe-container">
-        <iframe src="https://docs.google.com/document/d/e/2PACX-1vTi5owTPo5GwsbAmuCFirctrEFQwcFrOFkvvzlq6WX7arn0V2LszI09yFaAalLuGdKdnlFLpoG9zxrm/pub?embedded=true" width="900px" height="800px" style="border:none;"></iframe>
-    </div>
+   <object data="file:///Users/izaakmontoya/Downloads/IzaakMontoyaEngineeringPortfolio.pdf" type="application/pdf">
+        <p>Your browser does not support PDFs. <a href="https://example.com/path-to-your-pdf.pdf">Download the PDF</a>.</p>
+    </object>
 </body>
 </html>
