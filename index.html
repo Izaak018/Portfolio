@@ -5,31 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Engineering Portfolio - Izaak Montoya</title>
     <style>
+        /* Ensure body and html fill the entire viewport */
         body, html {
             margin: 0;
             padding: 0;
             width: 100%;
             height: 100%;
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             background-color: #3c4043;
         }
+
+        /* Make iframe take up 100% width and set a fixed height */
         iframe {
             width: 100%;
-            height: 100%;
-            min-width: 1200px;  /* Ensure a minimum width */
-            max-width: 2000px;  /* Ensure a maximum width */
+            height: 1000px; /* You can adjust the height to your liking */
             border: none;
+            max-width: 2000px; /* Prevent the iframe from stretching too much */
         }
+
+        /* Optional: Style the title */
         h1 {
             text-align: center;
+            color: white;
             margin-top: 20px;
         }
     </style>
 </head>
 <body>
+    <h1>Welcome to My Engineering Portfolio</h1>
     <iframe src="https://docs.google.com/document/d/e/2PACX-1vTi5owTPo5GwsbAmuCFirctrEFQwcFrOFkvvzlq6WX7arn0V2LszI09yFaAalLuGdKdnlFLpoG9zxrm/pub?embedded=true"></iframe>
 </body>
 </html>
